@@ -1,1 +1,4 @@
-
+PID学习
+基本公式:
+位置式PID: u(t)=Kp*e(k)+Ki*∑e(k)+Kd[e£¨k£©-e(k-1)]
+增量式PID: △u(t)=Kp[e(k)-e(k-1)]+Ki*e(k)+Kd[e(k)-2e(k-1)+e(k-2)]
